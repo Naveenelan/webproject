@@ -1,0 +1,56 @@
+.bgc{
+    background:  rgba(0,0,0,0.25)url(bgcpfinall.jpeg) no-repeat scroll;
+   background-position: left;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+}
+.text{
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.412);
+    text-align: center;
+    border: 5px solid gainsboro;
+    border-radius: 5px;
+    text-shadow: 1.5px 1.5px #02000cb9;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #07000037;
+}
+.navbar{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    line-height: 15px;
+   
+} 
+.navs{
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.322); 
+    backdrop-filter: blur(5px);
+    background-size: 20%;
+    border: 2px solid rgba(196, 193, 193, 0.352);
+} 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 55px;
+} 
+nav ul li a{
+    text-decoration: none;
+    text-shadow: 12px -2px 18px;
+    color: rgba(10, 0, 0, 0.632);
+    font-size: 17px;
+    font-weight: bolder;
+    font-family:serif ;
+}
+nav ul li a:hover{
+    transition: .25s;
+    color: rgb(0, 5, 5);
+    text-decoration: overline;
+
+}
